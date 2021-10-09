@@ -31,7 +31,11 @@ string shortestPath(vector<string> answers);
 int main(){
     string ans = "";
     char rep;
-    string scramb = "YBGGOWOWRRYBGRYWOYOBG";
+    string scramb;
+    // scramb = "YBGGOWOWRRYBGRYWOYOBG";
+    cout << "Please enter your pocket cubes puzzle correctly <3" << endl;
+    cin >> scramb;
+    cout << endl;
     set <string> stor;
     vector<string> answers;
 
